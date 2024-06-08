@@ -1,0 +1,37 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.header {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    color: #eee;
+    padding: 2rem 1rem;
+}
+
+.social_network {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+.social_network a {
+    font-size: 2rem;
+    color: #eee;
+}
+
+.text_animado {
+    color: #E1E63A;
+}
+
+@media(max-width: 500px){
+    .header {
+        padding:0 1rem;
+        font-size: 2rem;
+    }
+}
