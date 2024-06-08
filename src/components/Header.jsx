@@ -2,7 +2,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 export function Header() {
     const words = [
-        'Ingeniero de software', 'Desarrollador Front-end', 'Desarrollador Back-end', 'Entusiasta de Linux','Ingeniero de software'
+        'Desarrollador React', 'Desarrollador Java', 'Entusiasta de Linux','Ingeniero de Software'
     ]
 
     const { text } = Typewriter({
